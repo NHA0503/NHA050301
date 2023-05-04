@@ -1,63 +1,160 @@
 const data = [
     {
-        song: 'Lạc nhau có phải muôn đời',
-        singer: 'Erik',
+        song: 'A Thousand Years',
+        singer: 'Christina Perri',
         avatar: './images/01.jpg',
         mp3: './music/01.mp3'
     },
     {
-        song: 'Thì thôi',
-        singer: 'Eddy',
+        song: 'I Love You Baby ',
+        singer: 'Frank Sinatra',
         avatar: './images/02.jpg',
         mp3: './music/02.mp3'
     },
     {
-        song: 'Điều ta viết mùa xa nhau',
-        singer: 'Tiên Fami, Đoàn Minh Quân',
+        song: 'One Last Time',
+        singer: 'Ariana Grande',
         avatar: './images/03.jpg',
         mp3: './music/03.mp3'
     },
     {
-        song: 'Ai Cho Ai',
-        singer: 'FloD ft. M! (Giang Nguyen)',
+        song: 'Đưa Em về Nhà',
+        singer: 'GREY D x CHILLIES',
         avatar: './images/04.jpg',
         mp3: './music/04.mp3'
     },
     {
-        song: 'Là Ai Mang Nắng Đi Xa ',
-        singer: 'Yang',
+        song: 'anh sẽ đến cùng cơn mưa ',
+        singer: 'hứa kim tuyền x grey d',
         avatar: './images/05.jpg',
         mp3: './music/05.mp3'
     },
     {
-        song: 'Chuyện của mùa đông ',
-        singer: 'Tiến Thành',
+        song: 'Phi Điểu Và Ve Sầu',
+        singer: 'Nhậm Nhiên',
         avatar: './images/06.jpg',
         mp3: './music/06.mp3'
     },
     {
-        song: 'Bước qua mùa cô đơn',
-        singer: 'Vũ',
+        song: 'VÀ THẾ GIỚI ĐÃ MẤT ĐI MỘT NGƯỜI CÔ ĐƠN',
+        singer: 'marzuz, Gill, Onionn',
         avatar: './images/07.jpg',
         mp3: './music/07.mp3'
     },
     {
-        song: 'Đông Kiếm Em',
-        singer: 'Vũ',
+        song: 'Ánh Đèn Phố',
+        singer: 'The Cassette',
         avatar: './images/08.jpg',
         mp3: './music/08.mp3'
     },
     {
-        song: 'Lạ lùng',
-        singer: 'Vũ',
+        song: 'Yêu Xa - Mascara',
+        singer: 'Nguyên Hà',
         avatar: './images/09.jpg',
         mp3: './music/09.mp3'
     },
     {
-        song: 'Đợi',
-        singer: 'Vũ',
+        song: 'Khi Cô Đơn Em Nhớ Ai',
+        singer: 'Lưu Tuấn Phong',
         avatar: './images/10.jpg',
         mp3: './music/10.mp3'
+    },
+    // 11 bài trở lên 
+    {
+        song: 'Tự Tình 2',
+        singer: 'Lâm Nguyên',
+        avatar: './images/11.jpg',
+        mp3: './music/11.mp3'
+    },
+    {
+        song: 'Có Ai Ở Đây Không',
+        singer: '14 Casper & Bon',
+        avatar: './images/12.jpg',
+        mp3: './music/12.mp3'
+    },
+    {
+        song: 'Anh Ở Đây Mà',
+        singer: 'Đức Phúc',
+        avatar: './images/13.jpg',
+        mp3: './music/13.mp3'
+    },
+    {
+        song: 'Ngày Trôi Về Phía Cũ',
+        singer: ' Trung Quân',
+        avatar: './images/14.jpg',
+        mp3: './music/14.mp3'
+    },
+    {
+        song: 'Sau Tẩt Cả (Rap)',
+        singer: 'Mr.T',
+        avatar: './images/15.jpg',
+        mp3: './music/15.mp3'
+    },
+    {
+        song: 'Thanh Xuân',
+        singer: 'DaLab',
+        avatar: './images/16.jpg',
+        mp3: './music/16.mp3'
+    },
+    {
+        song: 'Đã Lỡ Yêu Em Nhiều',
+        singer: 'Justatee',
+        avatar: './images/17.jpg',
+        mp3: './music/17.mp3'
+    },
+    {
+        song: 'Hẹn Một Mai',
+        singer: 'Bùi Anh Tuấn',
+        avatar: './images/18.jpg',
+        mp3: './music/18.mp3'
+    },
+    {
+        song: 'Angel Baby',
+        singer: 'Troye Sivan',
+        avatar: './images/19.jpg',
+        mp3: './music/19.mp3'
+    },
+    {
+        song: 'Perfect',
+        singer: 'Ed Sheeran',
+        avatar: './images/20.jpg',
+        mp3: './music/20.mp3'
+    },
+    {
+        song: 'Until I Found You',
+        singer: 'Stephen Sanchez, Em Beihold',
+        avatar: './images/21.jpg',
+        mp3: './music/21.mp3'
+    },
+    {
+        song: 'thích mấy lời em nói...',
+        singer: 'Thịnh Suy',
+        avatar: './images/22.jpg',
+        mp3: './music/22.mp3'
+    },
+    {
+        song: 'Shadow of the Sun',
+        singer: 'Max Elto',
+        avatar: './images/23.jpg',
+        mp3: './music/23.mp3'
+    },
+    {
+        song: 'I Love You 3000',
+        singer: 'Stephanie Poetri',
+        avatar: './images/24.jpg',
+        mp3: './music/24.mp3'
+    },
+    {
+        song: 'Ghé Qua',
+        singer: 'Tây Nguyên Sound',
+        avatar: './images/25.jpg',
+        mp3: './music/25.mp3'
+    },
+    {
+        song: 'Ánh Nắng Của Anh',
+        singer: 'Đức Phúc',
+        avatar: './images/26.jpg',
+        mp3: './music/26.mp3'
     },
 ]
 
@@ -113,7 +210,7 @@ function percentTimeLine(e){
         percent = 1
     }
     
-    return percent
+    return percent  
 }
 
 //
@@ -276,6 +373,7 @@ forWard.addEventListener('click', function(){
 })
 
 //11. khi ấn backWard
+
 backward.addEventListener('click', function(){
     if(randomControl.classList.contains('active'))
     {
